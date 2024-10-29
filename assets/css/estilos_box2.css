@@ -1,0 +1,21 @@
+input {
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid #3bc1ff97;
+    text-align: center;
+    color: #161616;
+    font-weight: 600;
+}
+
+#input {
+    margin: 10px;
+}
+
+.mensajeSuccess {
+    color: green;
+}
+
+.mensajeWarning {
+    color: red;
+}

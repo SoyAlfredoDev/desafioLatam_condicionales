@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Ejercicios Desafío Latam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/estilos_generales.css">
+    <link rel="stylesheet" href="./assets/css/estilos_box1.css">
+    <link rel="stylesheet" href="./assets/css/estilos_box2.css">
+    <link rel="stylesheet" href="./assets/css/estilos_box3.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="item-1">Ejercicio 1</li>
+            <li class="item-2">Ejercicio 2</li>
+            <li class="item-3">Ejercicio 3</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="box-1 row">
+            <div class="card shadow">
+                <div class="text-center">
+                    <img src="./assets/img/logo_css.png" class="imgBorder" alt="Imagen de ejemplo">
+                </div>
+                <div class="text-center m-2">
+                    <button class="btn btn-success btn-border-img">Mostrar bordes</button>
+                </div>
+            </div>
+        </div>
+        <div class="box-2 row" hidden>
+            <div class="col-4 text-center">
+                <img src="https://via.placeholder.com/300.jpg" alt="">
+                <input type="number" id="input1" required>
+            </div>
+            <div class="col-4 text-center">
+                <img src="https://via.placeholder.com/300.jpg" alt="">
+                <input type="number" id="input2" required>
+            </div>
+            <div class="col-4 text-center">
+                <img src="https://via.placeholder.com/300.jpg" alt="">
+                <input type="number" id="input3" required>
+            </div>
+            <div class="col-12 text-center">
+                <button class="btn btn-success m-2" id="verificar">Verificar</button>
+                <p id="mensaje"></p>
+            </div>
+        </div>
+        <div class="box-3 row" hidden>
+            <div class="boxSelect1">
+                <select class="select1" name="select1" id="select1">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+            </div>
+            <div class="boxSelect2">
+                <select class="select2" name="select2" id="select2">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+
+            <div class="boxSelect3">
+                <select class="select3" name="select3" id="select3">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+            </div>
+
+            <p class="parrafo_respuesta text-danger"></p>
+
+            <button class="btn btn-success btn-validad-box-3">Validar </button>
+
+
+
+        </div>
+
+    </div>
+    <script src="./assets/js/scripts-general.js"></script>
+    <script src="./assets/js/scripts-box1.js"></script>
+    <script src="./assets/js/scripts-box2.js"></script>
+    <script src="./assets/js/scripts-box3.js"></script>
+
+
+</body>
+
+</html>

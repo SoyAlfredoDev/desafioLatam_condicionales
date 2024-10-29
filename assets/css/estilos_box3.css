@@ -1,0 +1,25 @@
+.box-3 {
+    display: flex;
+    background-color: #cfe90bb2;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxSelect1,
+.boxSelect2,
+.boxSelect3 {
+    width: 80px;
+
+}
+
+select {
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+
+}
